@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warhammer 40K Team Recruitment</title>
+    <style>
+        /* Add your custom styles here */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        form {
+            max-width: 400px;
+            margin: 20px 0;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Join our Warhammer 40K Team!</h1>
+    </header>
+
+    <section>
+        <h2>About Us</h2>
+        <p>Welcome to our Warhammer 40K team recruitment site. We are a passionate group of Warhammer enthusiasts looking for new members to join our ranks. Explore the glory of the Warhammer universe with us!</p>
+        <img src="warhammer_image.jpg" alt="Warhammer 40K Image">
+    </section>
+
+    <section>
+        <h2>Team Benefits</h2>
+        <ul>
+            <li>Engaging gameplay sessions</li>
+            <li>Tournaments and events participation</li>
+            <li>Access to exclusive Warhammer merchandise</li>
+            <li>Training and strategy sessions</li>
+            <li>A vibrant and supportive community</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Join Our Team</h2>
+        <form action="#" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="experience">Warhammer Experience (in years):</label>
+            <input type="number" id="experience" name="experience" required>
+
+            <label for="army">Preferred Warhammer Army:</label>
+            <input type="text" id="army" name="army" required>
+
+            <label for="roles">Preferred Roles:</label>
+            <label><input type="checkbox" name="roles[]" value="imperium">Imperium</label>
+            <label><input type="checkbox" name="roles[]" value="chaos">Chaos</label>
+            <label><input type="checkbox" name="roles[]" value="xenos">Xenos</label>
+
+            <label for="message">Why do you want to join our team?</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact us at: <a href="mailto:recruitment@warhammer40kteam.com">recruitment@warhammer40kteam.com</a></p>
+    </footer>
+
+</body>
+</html>
