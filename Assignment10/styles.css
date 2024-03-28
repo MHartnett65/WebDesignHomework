@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ac1313;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-image {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#highlighted {
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #007bff;
+}
+
+/* Additional styles for the h2 elements */
+h2:first-of-type {
+    margin-top: 30px;
+}
+
+h2:not(:first-of-type) {
+    margin-top: 20px;
+}
