@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d6819; 
+    color: #ddd; 
+}
+
+header {
+    background-color: #335231; 
+    color: #fff; 
+    padding: 20px;
+}
+
+.logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #ddd; 
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cc2929; 
+    top: 100%;
+    left: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.home {
+    padding: 50px;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.home-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+.about {
+    padding: 50px;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+
+.contact {
+    padding: 50px;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    margin-top: 30px;
+}
+
+.contact-form h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #666; 
+    background-color: #222; 
+    color: #ddd; 
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333; 
+    color: #fff; 
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555; 
+}
+
+
+footer {
+    background-color: #111; 
+    color: #ddd; 
+    text-align: center;
+    padding: 20px;
+}
